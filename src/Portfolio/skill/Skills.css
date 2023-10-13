@@ -1,0 +1,58 @@
+.skills-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color:black;
+    height: 70vh;
+  }
+  
+  .skills-list {
+    display: flex;
+    margin-top: 70px;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+  }
+  
+  .skill-badge {
+    display: flex;
+     align-items: center;
+    /* justify-content: center; */
+    /* text-align: center;  */
+    background-color: #fff; /* White background for the circle */
+    color: #007acc;
+    width: 70px; /* Adjust the size of the circular container */
+    height: 70px; /* Adjust the size of the circular container */
+    border-radius: 50%; /* Make it a circle */
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 5px;
+    transition: background-color 0.3s ease; /* Add a smooth transition on hover */
+    border: 5px solid #00cc00; /* Green border color */
+  }
+  #skill{
+    color: white;
+  }
+  .skill-badge:hover {
+    background-color: #007acc; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+  }
+  
+  .skill-icon {
+    font-size: 20px;
+    margin: 0 auto; /* Center the icon horizontally within the circle */
+  }
+  
+  /* Additional styling for h2 (Skills heading) */
+  .skills-container h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+  }

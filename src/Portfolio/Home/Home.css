@@ -1,0 +1,48 @@
+.home{
+   background-image:url("../images/nodes.gif") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    background-size: cover;
+    height: 100vh;
+}
+.homeTextPart{
+  display: flex;
+  align-items: center;
+}
+.homeTextPart h3{
+    color: rgb(225, 10, 178);
+}
+.homeImagePart{
+    padding-top: 72px;
+}
+.icons a{
+    font-size: 20px;
+    padding: 0px 10px;
+}
+.icons a:hover{
+    color: rgb(225, 10, 178);
+}
+.icons{
+    color: white;
+}
+/* .icons:hover{
+    background-color: rgb(225, 10, 178);
+} */
+@media screen and (max-width : 768px) {
+    .home{
+        height: auto;
+    }
+    .homeImagePart{
+        text-align: center;
+        padding-top: 80px;
+    }
+}
+
+@media screen and (min-width : 769px) {
+   
+    .homeImagePart{
+       
+        padding-left: 80px;
+    }
+}

@@ -1,0 +1,37 @@
+.about{
+    background-color: black;
+    background-position: center;
+     height: 90vh; 
+  
+
+}
+.aboutTextPart{
+    display: flex;
+    align-items: center;
+}
+.downloadcv{
+    color: white;
+    background-color: rgb(211, 23, 111);
+}
+.downloadcv:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgb(211, 23, 111);
+}
+@media screen and (max-width : 768px) {
+    .about{
+        height: auto;
+    }
+    .aboutTextPart{
+        text-align: center;
+        padding-top: 80px;
+    }
+}
+
+@media screen and (min-width : 769px) {
+   
+    .aboutTextPart{
+       
+        padding-left: 80px;
+    }
+}
